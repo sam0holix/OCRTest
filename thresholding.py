@@ -7,7 +7,7 @@ conf = '-l eng --oem 1 --psm 7'
 
 def main():
     area = 10000
-    source =  "IMG_20170825_154637.jpg"
+    source =  "images/sample2.jpg"
     img = cv.imread(source)
     frame = platePreProcess(img)
     gray = frame.gray()
